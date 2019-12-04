@@ -1,0 +1,45 @@
+<html><p>//《html》语言标签 你知道html 全称吗？不知道吧 《hyper Text Markup Language》用我没过四级的英文翻译就是 
+超文本标记语言</p>
+<head><p>//《head》头部</p>
+<style>
+        .MyFontStyle{
+            color:red;
+            font-size:30px;
+			font-family:楷体;
+        }
+    </style>
+<title><p>//《title》标题显示在网页名字</p>
+这里是网页的标题
+</title><p>《/title》大多数双标记结束以/加标记</p>
+</head><p>《/head》也一样</p>
+<body><p>//主体的内容写在《body》《/body》里边</p>
+<这里是网页的主题的内容br/>
+<p>下面可以设置一些标题用“<>里面加hn”表示: 比如：<p>
+<p>有没有觉得我的换行好整齐这是为什么？当然加上《p》《/p》就可以了，里面显示的是
+一行的内容 现在我这个</p>
+<p>就有点长 换个行吧 怎么样换过来了吧</p>
+<p>下面的字体会不会有点丑 颜色不够骚 来换一个字体和颜色吧</p>
+<h1><font size="12px">一号标题</font></h1>
+<p><font size="12px">《font size="12px"》12px是像素的意思 怎么样变大了吧</font></p>
+<p>那么字体可以通过《font》和《/font》设置一些字体大小颜色 字体样式等</p>
+<p>比如说：《font size / color / face ="大小"/"red"/"楷体" 尾部加上《/font》就可以了</p>
+<p>现在我们就对上面这段话进行一些操作</p>
+<p class ="MyFontStyle"> 比如说：《font size / color / face ="大小"/"red"/"</p>
+<p class ="MyFontStyle">微软雅黑" 尾部加上《/font》就可以了</p>
+<p>这个效果怎么做到的呢？</p>
+<p>看源码</p>
+<p>《style》</p>
+<p>       .MyFontStyle{</p>
+<p>           color:red;</p>
+<p>            font-size:30px;</p>
+<p>            font-family:微软雅黑;</p>
+        }
+ <p>   《/style》</p>
+<h2>二号标题</h2>
+<h3>（三号标题）啥诗来着记不太清了</h3>
+在这里用段落写一段话吧怎么样？
+<p>抽刀断水水更流</p>
+<p>举杯消愁愁更愁</p>
+<h8>ps:有没有发现字体越来越小了</h8>
+</body>
+</html>
